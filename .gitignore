@@ -1,0 +1,20 @@
+# Secrets Streamlit — NE PAS COMMITTER
+.streamlit/secrets.toml
+
+# Données volumineuses — télécharger via fetch_sbb_data.py
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
